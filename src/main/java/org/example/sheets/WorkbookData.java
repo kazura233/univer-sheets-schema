@@ -40,8 +40,16 @@ public class WorkbookData {
 
   /**
    * 文档的语言环境
-   * 对应枚举 LocaleType: EN_US='enUS', FR_FR='frFR', ZH_CN='zhCN', RU_RU='ruRU',
-   * ZH_TW='zhTW', VI_VN='viVN', FA_IR='faIR', KO_KR='koKR', ES_ES='esES',
+   * 对应枚举 LocaleType:
+   * EN_US='enUS',
+   * FR_FR='frFR',
+   * ZH_CN='zhCN',
+   * RU_RU='ruRU',
+   * ZH_TW='zhTW',
+   * VI_VN='viVN',
+   * FA_IR='faIR',
+   * KO_KR='koKR',
+   * ES_ES='esES',
    * CA_ES='caES'
    */
   private String locale;

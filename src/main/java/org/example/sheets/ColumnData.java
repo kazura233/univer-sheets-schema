@@ -1,5 +1,6 @@
 package org.example.sheets;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,12 +19,16 @@ public class ColumnData {
   /**
    * 宽度
    */
+  @JsonProperty("w")
   private Double w;
 
   /**
    * 隐藏
-   * 对应枚举 BooleanNumber: FALSE=0, TRUE=1
+   * 对应枚举 BooleanNumber:
+   * FALSE=0,
+   * TRUE=1
    */
+  @JsonProperty("hd")
   private Integer hd;
 
   /**
@@ -31,6 +36,7 @@ public class ColumnData {
    * StyleData | string
    */
   @JsonDeserialize(using = StyleDataDeserializer.class)
+  @JsonProperty("s")
   private Object s;
 
   /**

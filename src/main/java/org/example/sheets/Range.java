@@ -44,19 +44,31 @@ public class Range {
 
   /**
    * 范围类型
-   * 对应枚举 RANGE_TYPE: NORMAL=0, ROW=1, COLUMN=2, ALL=3
+   * 对应枚举 RANGE_TYPE:
+   * NORMAL=0,
+   * ROW=1,
+   * COLUMN=2,
+   * ALL=3
    */
   private Integer rangeType;
 
   /**
    * 起始绝对引用类型
-   * 对应枚举 AbsoluteRefType: NONE=0, ROW=1, COLUMN=2, ALL=3
+   * 对应枚举 AbsoluteRefType:
+   * NONE=0, // A1
+   * ROW=1, // A$1
+   * COLUMN=2, // $A1
+   * ALL=3 // $A$1
    */
   private Integer startAbsoluteRefType;
 
   /**
    * 结束绝对引用类型
-   * 对应枚举 AbsoluteRefType: NONE=0, ROW=1, COLUMN=2, ALL=3
+   * 对应枚举 AbsoluteRefType:
+   * NONE=0, // A1
+   * ROW=1, // A$1
+   * COLUMN=2, // $A1
+   * ALL=3 // $A$1
    */
   private Integer endAbsoluteRefType;
 }

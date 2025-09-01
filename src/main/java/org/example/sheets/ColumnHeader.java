@@ -19,7 +19,9 @@ public class ColumnHeader {
 
   /**
    * 隐藏
-   * 对应枚举 BooleanNumber: FALSE=0, TRUE=1
+   * 对应枚举 BooleanNumber:
+   * FALSE=0,
+   * TRUE=1
    */
   private Integer hidden;
 }

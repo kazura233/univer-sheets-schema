@@ -16,21 +16,25 @@ public class BorderData {
   /**
    * 顶部边框
    */
+  @JsonProperty("t")
   private BorderStyleData t;
 
   /**
    * 右侧边框
    */
+  @JsonProperty("r")
   private BorderStyleData r;
 
   /**
    * 底部边框
    */
+  @JsonProperty("b")
   private BorderStyleData b;
 
   /**
    * 左侧边框
    */
+  @JsonProperty("l")
   private BorderStyleData l;
 
   /**

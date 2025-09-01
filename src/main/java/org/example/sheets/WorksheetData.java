@@ -31,7 +31,9 @@ public class WorksheetData {
 
   /**
    * 确定工作表是否隐藏
-   * 对应枚举 BooleanNumber: FALSE=0, TRUE=1
+   * 对应枚举 BooleanNumber:
+   * FALSE=0,
+   * TRUE=1
    */
   private Integer hidden;
 
@@ -118,7 +120,9 @@ public class WorksheetData {
 
   /**
    * 显示网格线
-   * 对应枚举 BooleanNumber: FALSE=0, TRUE=1
+   * 对应枚举 BooleanNumber:
+   * FALSE=0,
+   * TRUE=1
    */
   private Integer showGridlines;
 
@@ -129,7 +133,9 @@ public class WorksheetData {
 
   /**
    * 从右到左
-   * 对应枚举 BooleanNumber: FALSE=0, TRUE=1
+   * 对应枚举 BooleanNumber:
+   * FALSE=0,
+   * TRUE=1
    */
   private Integer rightToLeft;
 

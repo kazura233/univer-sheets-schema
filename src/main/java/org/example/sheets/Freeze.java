@@ -1,5 +1,6 @@
 package org.example.sheets;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -15,11 +16,13 @@ public class Freeze {
   /**
    * 固定列数
    */
+  @JsonProperty("xSplit")
   private Integer xSplit;
 
   /**
    * 固定行数
    */
+  @JsonProperty("ySplit")
   private Integer ySplit;
 
   /**
